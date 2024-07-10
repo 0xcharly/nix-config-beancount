@@ -7,11 +7,11 @@
         "poetry2nix": "poetry2nix"
       },
       "locked": {
-        "lastModified": 1720617760,
-        "narHash": "sha256-CVGi+q+BKSN9CatdftTsvC1QETkBpNPmr+Hgk45woQ0=",
+        "lastModified": 1720623855,
+        "narHash": "sha256-JsD6o9Lg/3Xc7cAxtgoqyZ0XOZbro4gSquUVU7RkUeI=",
         "ref": "refs/heads/main",
-        "rev": "09b0c4c09a20b3806773991a54679896af2d2cd6",
-        "revCount": 43,
+        "rev": "db7535bfa44196273e4eeda936a0e9d766923127",
+        "revCount": 45,
         "type": "git",
         "url": "ssh://git@github.com/0xcharly/edamame"
       },
