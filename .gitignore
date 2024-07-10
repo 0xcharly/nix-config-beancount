@@ -1,0 +1,29 @@
+# Python.
+*.picklecache
+/.envrc.bak
+/.venv
+/Pipfile
+/requirements.txt
+
+# Nix.
+/.direnv/
+
+# Filesystem.
+/lost+found/
+
+# The actual content of this directory.
+# The flake setup is only used for the dev shell.
+/2021-01-01.share-emilie-labaule.beancount
+/2021-02-11.valentines-day.beancount
+/awards.beancount
+/bills/
+/delay.beancount
+/insurances/
+/invoices/
+/paystubs/
+/precisions.beancount
+/statements/
+
+# Edamame artifacts.
+report.py.log
+report.xlsx
