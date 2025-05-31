@@ -2,7 +2,7 @@
   description = "Charly's beancount dev shell";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
     flake-utils.url = "github:numtide/flake-utils";
 
     # Personal beancount plugins and scripts.
@@ -28,7 +28,7 @@
           pkgs.beancount-language-server
 
           # Python 3.11 distribution with the `edamame` module installed.
-          (pkgs.python311.withPackages (ps: [ps.edamame]))
+          (pkgs.python3.withPackages (ps: [ps.edamame]))
         ];
       };
     });
