@@ -26,6 +26,7 @@
         packages = [
           # Support for beancount language features inside editors.
           pkgs.beancount-language-server
+          pkgs.beanquery
 
           # Python 3.11 distribution with the `edamame` module installed.
           (pkgs.python3.withPackages (ps: [ps.edamame]))
